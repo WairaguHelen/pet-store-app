@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Pet Store</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Our Pet Store</h1>
+        <p>Your one-stop shop for pets, supplies, and expert care!</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#available-pets">Available Pets</a></li>
+            <li><a href="#pet-supplies">Pet Supplies</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a family-owned pet store dedicated to helping pet lovers find their perfect furry, feathered, or scaly companion. We also provide grooming services, veterinary care, and pet care tips.</p>
+    </section>
+
+    <!-- Available Pets Section -->
+    <section id="available-pets">
+        <h2>Available Pets</h2>
+        <ul>
+            <li>Dogs</li>
+            <li>Cats</li>
+            <li>Birds</li>
+            <li>Fish</li>
+            <li>Reptiles</li>
+        </ul>
+        <img src="images/dogs.jpeg" alt="Adorable Dog" title="Available Dogs">
+        <img src="images/cats.jpg" alt="Cute Cat" title="Available Cats">
+    </section>
+
+    <!-- Pet Supplies Section -->
+    <section id="pet-supplies">
+        <h2>Pet Supplies</h2>
+        <p>We offer a wide range of pet supplies to keep your pets happy and healthy, including food, toys, and grooming tools.</p>
+        <ol>
+            <li>Pet Food</li>
+            <li>Pet Toys</li>
+            <li>Grooming Tools</li>
+            <li>Leashes & Collars</li>
+        </ol>
+    </section>
+
+    <!-- Pet Care Tips Section (Optional Media Embedding) -->
+    <section id="pet-care">
+        <h2>Pet Care Tips</h2>
+        <video controls>
+            <source src="videos/pet-care.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Watch our tutorial video for essential tips on pet care and grooming!</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="services">Service Required:</label>
+            <select id="services" name="services">
+                <option value="grooming">Grooming</option>
+                <option value="veterinary">Veterinary Care</option>
+                <option value="supplies">Pet Supplies Inquiry</option>
+            </select>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Google Map -->
+    <section id="location">
+        <h2>Visit Our Store</h2>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019757592398!2d-122.41941548467915!3d37.77492977975937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085815c1ff2d5d5%3A0x3e2c020e2c020e5f!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1676143301254!5m2!1sen!2sus" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <!-- Services Table -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <table border="1">
+            <tr>
+                <th>Service</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Grooming</td>
+                <td>Full grooming services for all pets.</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>Veterinary Care</td>
+                <td>Check-ups and vaccinations.</td>
+                <td>$30</td>
+            </tr>
+            <tr>
+                <td>Training</td>
+                <td>Obedience and behavioral training for dogs.</td>
+                <td>$100</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Our Pet Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
